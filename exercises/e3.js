@@ -16,9 +16,11 @@
 // Your code goes here...
 function doesArrayIncludeItemsBetweenVals(arr, val1, val2) {
   let answer = false;
-  for (let num of arr) {
-    if (num > val1 && num < val2) {
-      answer = true;
+  if (answer == false) {
+    for (let num of arr) {
+      if (num > val1 && num < val2) {
+        answer = true;
+      }
     }
   }
   return answer;
