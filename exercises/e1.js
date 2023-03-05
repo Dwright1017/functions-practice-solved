@@ -45,7 +45,7 @@ function logMyMessage(message) {
 
 // Your code goes here...
 function logMessageWithMyName(name) {
- console.log(`My name is ${name}`)
+ console.log(`My name is ${name}!`)
 }
 
 
